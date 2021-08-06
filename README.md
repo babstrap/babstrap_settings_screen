@@ -5,7 +5,7 @@ Compatible with Android & iOS & Web.
 ![Licence MIT](https://img.shields.io/apm/l/vim-mode) ![Version 1.0.0](https://img.shields.io/badge/pub-v0.0.1-orange)
 
 ## Showcase
-![Preview ui](https://github.com/Babacar-arch/babstrap_settings_screen/issues/1#issue-962358853")
+![Preview ui](https://user-images.githubusercontent.com/65053170/128450473-7a71ecd5-576b-4a93-b9b3-8bb95f6ac304.png")
 
 ## Getting started
 
