@@ -7,6 +7,7 @@ Compatible with Android & iOS & Web.
 
 ## Showcase
 <img width="400" alt="settingsscreenpreview" src="https://user-images.githubusercontent.com/65053170/128450473-7a71ecd5-576b-4a93-b9b3-8bb95f6ac304.png">
+
 ## Getting started
 
 * add the following dependency in your `pubspact.yaml` file:
