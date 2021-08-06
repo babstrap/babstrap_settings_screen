@@ -1,14 +1,10 @@
+/*
+ * QR.Flutter
+ * Copyright (c) 2021 the QR.Flutter authors.
+ * See LICENSE for distribution and usage details.
+ */
 
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-
-class BabstrapSettingsScreen {
-  static const MethodChannel _channel =
-      const MethodChannel('babstrap_settings_screen');
-
-  static Future<String?> get platformVersion async {
-    final String? version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+export 'src/settings_screen_utils.dart';
+export 'src/icon_style.dart';
+export 'src/babs_component_settings_item.dart';
+export 'src/babs_component_settings_group.dart';
