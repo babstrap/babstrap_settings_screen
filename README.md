@@ -133,7 +133,6 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-...
 
 ## Licence
 Licence MIT
