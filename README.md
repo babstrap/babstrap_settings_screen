@@ -1,15 +1,25 @@
-# babstrap_settings_screen
+# Babstrap settings screen
+This package helps you to display a nice settings screen with Flutter in a very simple and fast way.
 
-A new flutter plugin project.
+Compatible with Android & iOS & Web.
+![Licence MIT](https://img.shields.io/apm/l/vim-mode) ![Version 1.0.0](https://img.shields.io/badge/pub-v0.0.1-orange)
 
-## Getting Started
+## Showcase
+![Preview ui](https://user-images.githubusercontent.com/65053170/128450473-7a71ecd5-576b-4a93-b9b3-8bb95f6ac304.png")
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## Getting started
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* add the following dependency in your `pubspact.yaml` file:
+``` dart
+dependencies:
+  babstrap_settings_screen : "^lastest_version"
+```
+* add import in your `dart` code:
+```dart
+import 'package:babstrap_settings_screen/babstrap_settings_screen.dart';
+```
+* Complete example
+...
 
+## Licence
+Licence MIT
