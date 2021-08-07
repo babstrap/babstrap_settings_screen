@@ -7,7 +7,7 @@ Compatible with Android & iOS & Web.
 
 ## Showcase
 
-| __Settings screen__ | __BigUserCard__ |
+| __Settings screen__ | __SmallUserCard__ |
 |---------------------|-----------------|
 |<img width="400" alt="settingsscreenpreview" src="https://user-images.githubusercontent.com/65053170/128450473-7a71ecd5-576b-4a93-b9b3-8bb95f6ac304.png"> | <img width="385" alt="smallcard" src="https://user-images.githubusercontent.com/65053170/128611589-ee0ee73e-ec78-4d2b-82e5-9bec6471be17.png"> |
 | __BigUserCard__ |
