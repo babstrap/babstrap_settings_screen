@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Increase the README
+
+## 0.0.3
+
+* You can add the User data section using a BigUserCard or SmallUserCard widget.
