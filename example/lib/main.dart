@@ -22,6 +22,25 @@ class MyApp extends StatelessWidget {
           padding: const EdgeInsets.all(10),
           child: ListView(
             children: [
+              // user card
+              BigUserCard(
+                cardColor: Colors.red,
+                userName: "Babacar Ndong",
+                userProfilePic: AssetImage("assets/logo.png"),
+                cardActionWidget: SettingsItem(
+                  icons: Icons.edit,
+                  iconStyle: IconStyle(
+                    withBackground: true,
+                    borderRadius: 50,
+                    backgroundColor: Colors.yellow[600],
+                  ),
+                  title: "Modify",
+                  subtitle: "Tap to change your data",
+                  onTap: () {
+                    print("OK");
+                  },
+                ),
+              ),
               SettingsGroup(
                 items: [
                   SettingsItem(

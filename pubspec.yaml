@@ -1,6 +1,6 @@
 name: babstrap_settings_screen
 description: This package helps you to display a nice settings screen with Flutter in a very simple and fast way. Use it to have MVP right now.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Babacar-arch/babstrap_settings_screen.git
 
 environment:
