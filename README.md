@@ -6,15 +6,12 @@ Compatible with Android & iOS & Web.
 ![Version 0.0.3](https://img.shields.io/badge/pub-v0.0.3-orange) [![Licence MIT](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FBabacar51193320)](https://twitter.com/ndongbabacar100)
 
 ## Showcase
-__Settings screen__                                                                                                                                             __BigUserCard__  
-  
-<img width="400" alt="settingsscreenpreview" src="https://user-images.githubusercontent.com/65053170/128450473-7a71ecd5-576b-4a93-b9b3-8bb95f6ac304.png">       <img width="385" alt="smallcard" src="https://user-images.githubusercontent.com/65053170/128611589-ee0ee73e-ec78-4d2b-82e5-9bec6471be17.png">  
-  
-  
-__BigUserCard__  
-  
-<img width="386" alt="bigUserCard" src="https://user-images.githubusercontent.com/65053170/128611717-634afdda-531f-46bc-92cc-d2e7bf943a6d.png">
-  
+
+| __Settings screen__ | __BigUserCard__ |
+|<img width="400" alt="settingsscreenpreview" src="https://user-images.githubusercontent.com/65053170/128450473-7a71ecd5-576b-4a93-b9b3-8bb95f6ac304.png"> | <img width="385" alt="smallcard" src="https://user-images.githubusercontent.com/65053170/128611589-ee0ee73e-ec78-4d2b-82e5-9bec6471be17.png"> |
+| __BigUserCard__ |
+| <img width="386" alt="bigUserCard" src="https://user-images.githubusercontent.com/65053170/128611717-634afdda-531f-46bc-92cc-d2e7bf943a6d.png"> |
+ 
 ## Getting started
 
 * add the following dependency in your `pubspact.yaml` file:
