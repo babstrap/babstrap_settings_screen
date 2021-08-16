@@ -21,11 +21,13 @@ class SmallUserCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var mediaQueryHeight = MediaQuery.of(context).size.height;
+
     if (this.userMoreInfo == null) this.userMoreInfo = Container();
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        height: MediaQuery.of(context).size.height / 6,
+        height: mediaQueryHeight / 6,
         margin: EdgeInsets.only(bottom: 20),
         decoration: BoxDecoration(
           color: cardColor,
@@ -60,7 +62,7 @@ class SmallUserCard extends StatelessWidget {
                     children: [
                       Expanded(
                         child: CircleAvatar(
-                          radius: 50,
+                          radius: mediaQueryHeight / 18,
                           backgroundImage: userProfilePic,
                         ),
                       ),

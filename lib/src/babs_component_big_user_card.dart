@@ -21,9 +21,10 @@ class BigUserCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var mediaQueryHeight = MediaQuery.of(context).size.height;
     if (this.userMoreInfo == null) this.userMoreInfo = Container();
     return Container(
-      height: MediaQuery.of(context).size.height / 4,
+      height: mediaQueryHeight / 4,
       margin: EdgeInsets.only(bottom: 20),
       decoration: BoxDecoration(
         color: cardColor,
@@ -58,9 +59,10 @@ class BigUserCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
+                    // User profile
                     Expanded(
                       child: CircleAvatar(
-                        radius: 50,
+                        radius: mediaQueryHeight / 18,
                         backgroundImage: userProfilePic,
                       ),
                     ),
@@ -73,7 +75,7 @@ class BigUserCard extends StatelessWidget {
                             userName!,
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 26,
+                              fontSize: mediaQueryHeight / 30,
                               color: Colors.white,
                             ),
                           ),
