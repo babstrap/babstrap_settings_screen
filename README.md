@@ -3,15 +3,15 @@ This package helps you to display a nice settings screen with Flutter in a very 
 
 Compatible with Android & iOS & Web.  
 
-![Version 0.0.3](https://img.shields.io/badge/pub-v0.0.3-orange) [![Licence MIT](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FBabacar51193320)](https://twitter.com/ndongbabacar100)
+![Version 0.1.0](https://img.shields.io/badge/pub-v0.1.0-orange) [![Licence MIT](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FBabacar51193320)](https://twitter.com/ndongbabacar100)
 
 ## Showcase
 
 | __Settings screen__ | __SmallUserCard__ |
 |---------------------|-----------------|
 |<img width="400" alt="settingsscreenpreview" src="https://user-images.githubusercontent.com/65053170/128450473-7a71ecd5-576b-4a93-b9b3-8bb95f6ac304.png"> | <img width="400" alt="smallcard" src="https://user-images.githubusercontent.com/65053170/128611589-ee0ee73e-ec78-4d2b-82e5-9bec6471be17.png"> |
-| __BigUserCard__ |
-| <img width="400" alt="bigUserCard" src="https://user-images.githubusercontent.com/65053170/128611717-634afdda-531f-46bc-92cc-d2e7bf943a6d.png"> |
+| __BigUserCard__ | __SimpleUserCard__ |
+| <img width="400" alt="bigUserCard" src="https://user-images.githubusercontent.com/65053170/128611717-634afdda-531f-46bc-92cc-d2e7bf943a6d.png"> | <img width="400" alt="Capture d’écran 2021-08-16 à 17 31 34" src="https://user-images.githubusercontent.com/65053170/129605256-3d41ee37-d58f-4e87-8ad4-cc0eeb9dddd5.png">
  
 ## Getting started
 
@@ -140,6 +140,7 @@ Padding(
 
 | Parameters                  | Type                 | Description                                                                                          |
 |-----------------------------|----------------------|------------------------------------------------------------------------------------------------------|
+| __userProfilePic__ | ImageProvider | Use it to display an image |
 | __cardColor__               | Color?               | Use it to change the card color                                                                      |
 | __cardRadius__              | double?              | Use it to change the card corner radius                                                              |
 | __backgroundMotifColor__    | Color?               | Use it to change the card background motif color                                                     |
@@ -151,12 +152,25 @@ Padding(
 
 | Parameters                  | Type                 | Description                                                                                          |
 |-----------------------------|----------------------|------------------------------------------------------------------------------------------------------|
+| __userProfilePic__ | ImageProvider | Use it to display an image |
 | __cardColor__               | Color?               | Use it to change the card color                                                                      |
 | __cardRadius__              | double?              | Use it to change the card corner radius                                                              |
 | __backgroundMotifColor__    | Color?               | Use it to change the card background motif color                                                     |
 | __onTap__                   | VoidCallback         | Use it to trigger an action on Card clicked                                                          |
 | __userName__                | String?              | Use it to add the user name                                                                          |
 | __userMoreInfo__            | Widget?              | Use it to add more user's informations                                                               |
+
+* SimpleUserCard
+
+| Parameters                  | Type                 | Description       |
+|-----------------------------|----------------------|-------------------|
+| __userProfilePic__ | ImageProvider | Use it to display an image |
+| __userName__ | String | Use it to add the user name |
+| __imageRadius__ | double? | Use it to change the image corner  |
+| __onTap__ | VoidCallback? | Use it to trigger an action on the Image  |
+| __textStyle__ | TextStyle? | Use it to change the __userName__ text style  |
+| __icon__ | Icon? | Use it tot add a Icon on the image for improve the UI |
+
 
 ## Licence
 Licence MIT
