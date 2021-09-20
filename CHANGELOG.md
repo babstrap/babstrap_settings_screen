@@ -1,3 +1,7 @@
+## 0.1.1
+
+* Fix the SimpleUserCard BUGs
+
 ## 0.1.0
 
 * Adding the SimpleUserCard component

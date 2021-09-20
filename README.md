@@ -3,7 +3,7 @@ This package helps you to display a nice settings screen with Flutter in a very 
 
 Compatible with Android & iOS & Web.  
 
-![Version 0.1.0](https://img.shields.io/badge/pub-v0.1.0-orange) [![Licence MIT](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FBabacar51193320)](https://twitter.com/ndongbabacar100)
+![Version 0.1.1](https://img.shields.io/badge/pub-v0.1.1-orange) [![Licence MIT](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FBabacar51193320)](https://twitter.com/ndongbabacar100)
 
 ## Showcase
 
