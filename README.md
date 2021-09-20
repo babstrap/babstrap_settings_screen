@@ -9,8 +9,7 @@ Compatible with Android & iOS & Web.
 
 | __Settings screen__ | __SmallUserCard__ |
 |---------------------|-----------------|
-|![no_user_card](https://user-images.githubusercontent.com/65053170/134021464-2a2107ee-9e90-4303-bfd3-daffcdc8bc0d.png)
-| <img width="400" alt="smallcard" src="https://user-images.githubusercontent.com/65053170/128611589-ee0ee73e-ec78-4d2b-82e5-9bec6471be17.png"> |
+|<img width="400" alt="settingsscreenpreview" src="https://user-images.githubusercontent.com/65053170/134021464-2a2107ee-9e90-4303-bfd3-daffcdc8bc0d.png"> | <img width="400" alt="smallcard" src="https://user-images.githubusercontent.com/65053170/128611589-ee0ee73e-ec78-4d2b-82e5-9bec6471be17.png"> |
 | __BigUserCard__ | __SimpleUserCard__ |
 | <img width="400" alt="bigUserCard" src="https://user-images.githubusercontent.com/65053170/128611717-634afdda-531f-46bc-92cc-d2e7bf943a6d.png"> | <img width="400" alt="Capture d’écran 2021-08-16 à 17 31 34" src="https://user-images.githubusercontent.com/65053170/129605256-3d41ee37-d58f-4e87-8ad4-cc0eeb9dddd5.png">
  
