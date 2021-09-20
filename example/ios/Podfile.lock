@@ -1,0 +1,22 @@
+PODS:
+  - babstrap_settings_screen (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - babstrap_settings_screen (from `.symlinks/plugins/babstrap_settings_screen/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  babstrap_settings_screen:
+    :path: ".symlinks/plugins/babstrap_settings_screen/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  babstrap_settings_screen: 535097da0fa521a47fef6f6678ff2b464ee15937
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.2

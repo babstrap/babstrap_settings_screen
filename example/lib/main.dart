@@ -15,31 +15,22 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white.withOpacity(.94),
         appBar: AppBar(
-          title: Text("Settings"),
+          title: Text(
+            "Settings",
+            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+          ),
           centerTitle: true,
+          backgroundColor: Colors.transparent,
+          elevation: 0,
         ),
         body: Padding(
           padding: const EdgeInsets.all(10),
           child: ListView(
             children: [
               // user card
-              BigUserCard(
-                cardColor: Colors.red,
-                userName: "Babacar Ndong",
-                userProfilePic: AssetImage("assets/logo.png"),
-                cardActionWidget: SettingsItem(
-                  icons: Icons.edit,
-                  iconStyle: IconStyle(
-                    withBackground: true,
-                    borderRadius: 50,
-                    backgroundColor: Colors.yellow[600],
-                  ),
-                  title: "Modify",
-                  subtitle: "Tap to change your data",
-                  onTap: () {
-                    print("OK");
-                  },
-                ),
+              SimpleUserCard(
+                userName: "Nom de l'utilisateur",
+                userProfilePic: AssetImage("assets/profilpic.png"),
               ),
               SettingsGroup(
                 items: [
