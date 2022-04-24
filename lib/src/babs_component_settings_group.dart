@@ -46,7 +46,6 @@ class SettingsGroup extends StatelessWidget {
               borderRadius: BorderRadius.circular(15),
             ),
             child: ListView.separated(
-              physics: ScrollPhysics(),
               separatorBuilder: (context, index) {
                 return Divider();
               },
@@ -56,6 +55,7 @@ class SettingsGroup extends StatelessWidget {
               },
               shrinkWrap: true,
               padding: EdgeInsets.zero,
+              physics: ScrollPhysics(),
             ),
           ),
         ],
