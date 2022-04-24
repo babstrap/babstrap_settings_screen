@@ -1,3 +1,7 @@
+## 0.1.3
+
+* Update the README file
+
 ## 0.1.2
 
 * Remove unnecessary white space
