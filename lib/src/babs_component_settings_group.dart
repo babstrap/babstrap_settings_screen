@@ -55,6 +55,7 @@ class SettingsGroup extends StatelessWidget {
                 return items[index];
               },
               shrinkWrap: true,
+              padding: EdgeInsets.zero,
             ),
           ),
         ],
