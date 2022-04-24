@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class BigUserCard extends StatelessWidget {
-  Color? cardColor;
-  double? cardRadius;
-  Color? backgroundMotifColor;
-  Widget? cardActionWidget;
-  String? userName;
-  Widget? userMoreInfo;
-  ImageProvider userProfilePic;
+  final Color? cardColor;
+  final double? cardRadius;
+  final Color? backgroundMotifColor;
+  final Widget? cardActionWidget;
+  final String? userName;
+  late final Widget? userMoreInfo;
+  final ImageProvider userProfilePic;
 
   BigUserCard({
     required this.cardColor,
@@ -22,7 +22,10 @@ class BigUserCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var mediaQueryHeight = MediaQuery.of(context).size.height;
-    if (this.userMoreInfo == null) this.userMoreInfo = Container();
+    if (this.userMoreInfo == null) {
+      this.userMoreInfo = Container();
+    }
+
     return Container(
       height: mediaQueryHeight / 4,
       margin: EdgeInsets.only(bottom: 20),
