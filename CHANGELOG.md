@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Remove unnecessary white space
+
 ## 0.1.1
 
 * Fix the SimpleUserCard BUGs
