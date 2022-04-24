@@ -55,7 +55,6 @@ class SettingsItem extends StatelessWidget {
       ),
       trailing:
           (trailing != null) ? trailing : Icon(Icons.arrow_forward_ios_rounded),
-      contentPadding: EdgeInsets.zero,
     );
   }
 }
