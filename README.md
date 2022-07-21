@@ -18,7 +18,7 @@ Compatible with Android & iOS & Web.
 * add the following dependency in your `pubspact.yaml` file:
 ``` dart
 dependencies:
-  babstrap_settings_screen : "^latest_version"
+  babstrap_settings_screen : "^lastest_version"
 ```
 * add import in your `dart` code:
 ``` dart
