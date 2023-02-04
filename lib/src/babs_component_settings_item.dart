@@ -10,7 +10,8 @@ class SettingsItem extends StatelessWidget {
   String? subtitle;
   TextStyle? subtitleStyle;
   Widget? trailing;
-  VoidCallback onTap;
+  VoidCallback? onTap;
+  Color? backgroundColor;
 
   SettingsItem(
       {required this.icons,
@@ -19,42 +20,49 @@ class SettingsItem extends StatelessWidget {
       this.titleStyle,
       this.subtitle = "",
       this.subtitleStyle,
+      this.backgroundColor,
       this.trailing,
-      required this.onTap});
+      this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      onTap: onTap,
-      leading: (iconStyle != null && iconStyle!.withBackground!)
-          ? Container(
-              decoration: BoxDecoration(
-                color: iconStyle!.backgroundColor,
-                borderRadius: BorderRadius.circular(iconStyle!.borderRadius!),
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(15),
+      child: ListTile(
+        onTap: onTap,
+        leading: (iconStyle != null && iconStyle!.withBackground!)
+            ? Container(
+                decoration: BoxDecoration(
+                  color: iconStyle!.backgroundColor,
+                  borderRadius: BorderRadius.circular(iconStyle!.borderRadius!),
+                ),
+                padding: EdgeInsets.all(5),
+                child: Icon(
+                  icons,
+                  size: SettingsScreenUtils.settingsGroupIconSize,
+                  color: iconStyle!.iconsColor,
+                ),
+              )
+            : Padding(
+                padding: EdgeInsets.all(5),
+                child: Icon(
+                  icons,
+                  size: SettingsScreenUtils.settingsGroupIconSize,
+                ),
               ),
-              padding: EdgeInsets.all(5),
-              child: Icon(
-                icons,
-                size: SettingsScreenUtils.settingsGroupIconSize,
-                color: iconStyle!.iconsColor,
-              ),
-            )
-          : Icon(
-              icons,
-              size: SettingsScreenUtils.settingsGroupIconSize,
-            ),
-      title: Text(
-        title,
-        style: titleStyle ?? TextStyle(fontWeight: FontWeight.bold),
-        maxLines: 1,
+        title: Text(
+          title,
+          style: titleStyle ?? TextStyle(fontWeight: FontWeight.bold),
+          maxLines: 1,
+        ),
+        subtitle: Text(
+          subtitle!,
+          style: subtitleStyle ?? TextStyle(color: Colors.grey),
+          maxLines: 1,
+        ),
+        trailing:
+            (trailing != null) ? trailing : Icon(Icons.arrow_forward_ios_rounded),
       ),
-      subtitle: Text(
-        subtitle!,
-        style: subtitleStyle ?? TextStyle(color: Colors.grey),
-        maxLines: 1,
-      ),
-      trailing:
-          (trailing != null) ? trailing : Icon(Icons.arrow_forward_ios_rounded),
     );
   }
 }
