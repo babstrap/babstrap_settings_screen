@@ -42,7 +42,7 @@ class SettingsGroup extends StatelessWidget {
           // The SettingsGroup sections
           Container(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).cardColor,
               borderRadius: BorderRadius.circular(15),
             ),
             child: ListView.separated(
