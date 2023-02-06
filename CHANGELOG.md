@@ -1,3 +1,7 @@
+## 0.1.4
+
+* Take more parameters and use less hardcoded colors - Thanks @roberthmoller
+
 ## 0.1.3
 
 * Update the README file

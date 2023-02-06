@@ -1,9 +1,9 @@
 # Babstrap settings screen
-This package helps you to display a nice settings screen with Flutter in a very simple and fast way.
+This project help developpers to display a beautiful Settings Screen UI using Flutter.
 
 Compatible with Android & iOS & Web.  
 
-![Version 0.1.1](https://img.shields.io/badge/pub-v0.1.1-orange) [![Licence MIT](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FBabacar51193320)](https://twitter.com/babstrap)
+![Version 0.1.4](https://img.shields.io/badge/pub-0.1.4-orange) [![Licence MIT](https://img.shields.io/apm/l/vim-mode)](https://github.com/babstrap/babstrap_settings_screen/blob/main/LICENSE) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FBabacar51193320)](https://twitter.com/babstrap)
 
 ## Showcase
 
