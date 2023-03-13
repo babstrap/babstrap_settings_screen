@@ -3,15 +3,15 @@ import 'package:babstrap_settings_screen/src/settings_screen_utils.dart';
 import 'package:flutter/material.dart';
 
 class SettingsItem extends StatelessWidget {
-  IconData icons;
-  IconStyle? iconStyle;
-  String title;
-  TextStyle? titleStyle;
-  String? subtitle;
-  TextStyle? subtitleStyle;
-  Widget? trailing;
-  VoidCallback? onTap;
-  Color? backgroundColor;
+  final IconData icons;
+  final IconStyle? iconStyle;
+  final String title;
+  final TextStyle? titleStyle;
+  final String? subtitle;
+  final TextStyle? subtitleStyle;
+  final Widget? trailing;
+  final VoidCallback? onTap;
+  final Color? backgroundColor;
 
   SettingsItem(
       {required this.icons,

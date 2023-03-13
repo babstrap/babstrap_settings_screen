@@ -1,4 +1,4 @@
-## 0.1.4
+## 0.1.5
 
 * Improve ui if subtitle is null ;
 * Change default trailling icon ;

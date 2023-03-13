@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 /// This component group the Settings items (BabsComponentSettingsItem)
 /// All one BabsComponentSettingsGroup have a title and the developper can improve the design.
 class SettingsGroup extends StatelessWidget {
-  String? settingsGroupTitle;
-  TextStyle? settingsGroupTitleStyle;
-  List<SettingsItem> items;
+  final String? settingsGroupTitle;
+  final TextStyle? settingsGroupTitleStyle;
+  final List<SettingsItem> items;
   // Icons size
-  double? iconItemSize;
+  final double? iconItemSize;
 
   SettingsGroup(
       {this.settingsGroupTitle,

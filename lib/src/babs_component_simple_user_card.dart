@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class SimpleUserCard extends StatelessWidget {
-  late ImageProvider userProfilePic;
-  late String userName;
-  double? imageRadius;
-  Widget? userMoreInfo;
-  VoidCallback? onTap;
-  TextStyle? textStyle;
-  Icon? icon;
+  final ImageProvider userProfilePic;
+  final String userName;
+  final double? imageRadius;
+  final Widget? userMoreInfo;
+  final VoidCallback? onTap;
+  final TextStyle? textStyle;
+  final Icon? icon;
 
   SimpleUserCard({
     required this.userProfilePic,

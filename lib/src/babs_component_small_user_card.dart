@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class SmallUserCard extends StatelessWidget {
-  Color? cardColor;
-  double? cardRadius;
-  Color? backgroundMotifColor;
-  VoidCallback? onTap;
-  String? userName;
-  Widget? userMoreInfo;
-  ImageProvider userProfilePic;
+  final Color? cardColor;
+  final double? cardRadius;
+  final Color? backgroundMotifColor;
+  final VoidCallback? onTap;
+  final String? userName;
+  final Widget? userMoreInfo;
+  final ImageProvider userProfilePic;
 
   SmallUserCard({
     required this.cardColor,
@@ -23,7 +23,6 @@ class SmallUserCard extends StatelessWidget {
   Widget build(BuildContext context) {
     var mediaQueryHeight = MediaQuery.of(context).size.height;
 
-    if (this.userMoreInfo == null) this.userMoreInfo = Container();
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -79,7 +78,9 @@ class SmallUserCard extends StatelessWidget {
                                 color: Colors.white,
                               ),
                             ),
-                            userMoreInfo!,
+                            if (userMoreInfo != null) ...[
+                              userMoreInfo!,
+                            ]
                           ],
                         ),
                       ),
