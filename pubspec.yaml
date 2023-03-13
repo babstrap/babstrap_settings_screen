@@ -27,7 +27,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: sn.babstrap.babstrap_settings_screen
+        package: com.babacar.babstrap_settings_screen
         pluginClass: BabstrapSettingsScreenPlugin
       ios:
         pluginClass: BabstrapSettingsScreenPlugin
