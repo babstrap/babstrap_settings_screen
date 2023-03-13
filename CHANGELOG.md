@@ -1,5 +1,11 @@
 ## 0.1.4
 
+* Improve ui if subtitle is null ;
+* Change default trailling icon ;
+* ...
+
+## 0.1.4
+
 * Take more parameters and use less hardcoded colors - Thanks @roberthmoller
 
 ## 0.1.3
