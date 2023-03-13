@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class SmallUserCard extends StatelessWidget {
-  final Color? cardColor;
-  final double? cardRadius;
-  final Color? backgroundMotifColor;
-  final VoidCallback? onTap;
-  final String? userName;
+  final Color cardColor;
+  final double cardRadius;
+  final Color backgroundMotifColor;
+  final VoidCallback onTap;
+  final String userName;
   final Widget? userMoreInfo;
   final ImageProvider userProfilePic;
 
@@ -30,8 +30,9 @@ class SmallUserCard extends StatelessWidget {
         margin: EdgeInsets.only(bottom: 20),
         decoration: BoxDecoration(
           color: cardColor,
-          borderRadius:
-              BorderRadius.circular(double.parse(cardRadius!.toString())),
+          borderRadius: BorderRadius.circular(
+            double.parse(cardRadius.toString()),
+          ),
         ),
         child: Stack(
           children: [
@@ -39,14 +40,14 @@ class SmallUserCard extends StatelessWidget {
               alignment: Alignment.bottomLeft,
               child: CircleAvatar(
                 radius: 100,
-                backgroundColor: backgroundMotifColor!.withOpacity(.1),
+                backgroundColor: backgroundMotifColor.withOpacity(.1),
               ),
             ),
             Align(
               alignment: Alignment.center,
               child: CircleAvatar(
                 radius: 400,
-                backgroundColor: backgroundMotifColor!.withOpacity(.05),
+                backgroundColor: backgroundMotifColor.withOpacity(.05),
               ),
             ),
             Container(
@@ -71,7 +72,7 @@ class SmallUserCard extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              userName!,
+                              userName,
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 26,

@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 class BigUserCard extends StatelessWidget {
   final Color? backgroundColor;
   final Color? settingColor;
-  final double? cardRadius;
-  final Color? backgroundMotifColor;
+  final double cardRadius;
+  final Color backgroundMotifColor;
   final Widget? cardActionWidget;
-  final String? userName;
+  final String userName;
   final Widget? userMoreInfo;
   final ImageProvider userProfilePic;
 
@@ -29,8 +29,9 @@ class BigUserCard extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 20),
       decoration: BoxDecoration(
         color: backgroundColor ?? Theme.of(context).cardColor,
-        borderRadius:
-            BorderRadius.circular(double.parse(cardRadius!.toString())),
+        borderRadius: BorderRadius.circular(
+          double.parse(cardRadius.toString()),
+        ),
       ),
       child: Stack(
         children: [
@@ -38,14 +39,14 @@ class BigUserCard extends StatelessWidget {
             alignment: Alignment.bottomLeft,
             child: CircleAvatar(
               radius: 100,
-              backgroundColor: backgroundMotifColor!.withOpacity(.1),
+              backgroundColor: backgroundMotifColor.withOpacity(.1),
             ),
           ),
           Align(
             alignment: Alignment.center,
             child: CircleAvatar(
               radius: 400,
-              backgroundColor: backgroundMotifColor!.withOpacity(.05),
+              backgroundColor: backgroundMotifColor.withOpacity(.05),
             ),
           ),
           Container(
@@ -73,7 +74,7 @@ class BigUserCard extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            userName!,
+                            userName,
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: mediaQueryHeight / 30,

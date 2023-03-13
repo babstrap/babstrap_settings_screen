@@ -13,16 +13,17 @@ class SettingsItem extends StatelessWidget {
   final VoidCallback? onTap;
   final Color? backgroundColor;
 
-  SettingsItem(
-      {required this.icons,
-      this.iconStyle,
-      required this.title,
-      this.titleStyle,
-      this.subtitle,
-      this.subtitleStyle,
-      this.backgroundColor,
-      this.trailing,
-      this.onTap});
+  SettingsItem({
+    required this.icons,
+    this.iconStyle,
+    required this.title,
+    this.titleStyle,
+    this.subtitle,
+    this.subtitleStyle,
+    this.backgroundColor,
+    this.trailing,
+    this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -30,11 +31,11 @@ class SettingsItem extends StatelessWidget {
       borderRadius: BorderRadius.circular(15),
       child: ListTile(
         onTap: onTap,
-        leading: (iconStyle != null && iconStyle!.withBackground!)
+        leading: (iconStyle != null && iconStyle!.withBackground)
             ? Container(
                 decoration: BoxDecoration(
                   color: iconStyle!.backgroundColor,
-                  borderRadius: BorderRadius.circular(iconStyle!.borderRadius!),
+                  borderRadius: BorderRadius.circular(iconStyle!.borderRadius),
                 ),
                 padding: EdgeInsets.all(5),
                 child: Icon(
