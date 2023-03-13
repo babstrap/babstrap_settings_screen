@@ -1,3 +1,6 @@
+## 0.1.5+1
+* Fix package error
+
 ## 0.1.5
 
 * Improve ui if subtitle is null ;
