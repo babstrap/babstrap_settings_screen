@@ -60,6 +60,7 @@ class SettingsItem extends StatelessWidget {
                 subtitle!,
                 style: subtitleStyle ?? Theme.of(context).textTheme.bodyMedium!,
                 maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               )
             : null,
         trailing: (trailing != null) ? trailing : Icon(Icons.navigate_next),
