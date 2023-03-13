@@ -62,9 +62,7 @@ class SettingsItem extends StatelessWidget {
                 maxLines: 1,
               )
             : null,
-        trailing: (trailing != null)
-            ? trailing
-            : Icon(Icons.arrow_forward_ios_rounded),
+        trailing: (trailing != null) ? trailing : Icon(Icons.navigate_next),
       ),
     );
   }
