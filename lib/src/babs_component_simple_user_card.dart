@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class SimpleUserCard extends StatelessWidget {
   final ImageProvider userProfilePic;
   final String userName;
-  final double? imageRadius;
+  final double imageRadius;
   final Widget? userMoreInfo;
   final VoidCallback? onTap;
   final TextStyle? textStyle;
@@ -36,7 +36,7 @@ class SimpleUserCard extends StatelessWidget {
               child: Stack(
                 children: [
                   ClipRRect(
-                    borderRadius: BorderRadius.circular(imageRadius!),
+                    borderRadius: BorderRadius.circular(imageRadius),
                     child: Image(
                       image: userProfilePic,
                       fit: BoxFit.cover,
