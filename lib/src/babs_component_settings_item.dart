@@ -18,7 +18,7 @@ class SettingsItem extends StatelessWidget {
       this.iconStyle,
       required this.title,
       this.titleStyle,
-      this.subtitle = "",
+      this.subtitle,
       this.subtitleStyle,
       this.backgroundColor,
       this.trailing,
@@ -55,13 +55,16 @@ class SettingsItem extends StatelessWidget {
           style: titleStyle ?? TextStyle(fontWeight: FontWeight.bold),
           maxLines: 1,
         ),
-        subtitle: Text(
-          subtitle!,
-          style: subtitleStyle ?? TextStyle(color: Colors.grey),
-          maxLines: 1,
-        ),
-        trailing:
-            (trailing != null) ? trailing : Icon(Icons.arrow_forward_ios_rounded),
+        subtitle: (subtitle != null)
+            ? Text(
+                subtitle!,
+                style: subtitleStyle ?? Theme.of(context).textTheme.bodyMedium!,
+                maxLines: 1,
+              )
+            : null,
+        trailing: (trailing != null)
+            ? trailing
+            : Icon(Icons.arrow_forward_ios_rounded),
       ),
     );
   }
