@@ -52,16 +52,12 @@ class SettingsItem extends StatelessWidget {
               ),
         title: Text(
           title,
-          style: titleStyle ?? TextStyle(fontWeight: FontWeight.bold),
-          maxLines: 1,
-          overflow: TextOverflow.ellipsis,
+          style: titleStyle ?? TextStyle(fontWeight: FontWeight.bold)
         ),
         subtitle: (subtitle != null)
             ? Text(
                 subtitle!,
-                style: subtitleStyle ?? Theme.of(context).textTheme.bodyMedium!,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+                style: subtitleStyle ?? Theme.of(context).textTheme.bodyMedium!
               )
             : null,
         trailing: (trailing != null) ? trailing : Icon(Icons.navigate_next),
