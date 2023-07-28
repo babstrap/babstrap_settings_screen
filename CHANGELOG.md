@@ -1,6 +1,6 @@
 ## 0.1.6
 * Fix bug about Kotlin version
-* Remote line limit
+* Adding change maxLine and overflow support (for title and subtitle)
 
 ## 0.1.5+1
 * Fix package error
