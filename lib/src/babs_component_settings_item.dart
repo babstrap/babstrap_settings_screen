@@ -12,6 +12,9 @@ class SettingsItem extends StatelessWidget {
   final Widget? trailing;
   final VoidCallback? onTap;
   final Color? backgroundColor;
+  final int? titleMaxLine;
+  final int? subtitleMaxLine;
+  final TextOverflow? overflow;
 
   SettingsItem(
       {required this.icons,
@@ -22,7 +25,10 @@ class SettingsItem extends StatelessWidget {
       this.subtitleStyle,
       this.backgroundColor,
       this.trailing,
-      this.onTap});
+      this.onTap,
+      this.titleMaxLine,
+      this.subtitleMaxLine,
+      this.overflow = TextOverflow.ellipsis});
 
   @override
   Widget build(BuildContext context) {
@@ -52,12 +58,17 @@ class SettingsItem extends StatelessWidget {
               ),
         title: Text(
           title,
-          style: titleStyle ?? TextStyle(fontWeight: FontWeight.bold)
+          style: titleStyle ?? TextStyle(fontWeight: FontWeight.bold),
+          maxLines: titleMaxLine,
+          overflow: titleMaxLine != null ? overflow : null,
         ),
         subtitle: (subtitle != null)
             ? Text(
                 subtitle!,
-                style: subtitleStyle ?? Theme.of(context).textTheme.bodyMedium!
+                style: subtitleStyle ?? Theme.of(context).textTheme.bodyMedium!,
+                maxLines: subtitleMaxLine,
+                overflow:
+                    subtitleMaxLine != null ? TextOverflow.ellipsis : null,
               )
             : null,
         trailing: (trailing != null) ? trailing : Icon(Icons.navigate_next),

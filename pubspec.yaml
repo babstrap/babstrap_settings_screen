@@ -1,6 +1,6 @@
 name: babstrap_settings_screen
 description: This project help developpers to display a beautiful Settings Screen UI using Flutter.
-version: 0.1.5+1
+version: 0.1.6
 homepage: https://github.com/babstrap/babstrap_settings_screen.git
 
 environment:

@@ -38,8 +38,12 @@ class MyApp extends StatelessWidget {
                     onTap: () {},
                     icons: CupertinoIcons.pencil_outline,
                     iconStyle: IconStyle(),
-                    title: 'Appearance',
-                    subtitle: "Make Ziar'App yours",
+                    title:
+                        'Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance',
+                    subtitle:
+                        "Make Ziar'App yours Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance",
+                    titleMaxLine: 1,
+                    subtitleMaxLine: 1,
                   ),
                   SettingsItem(
                     onTap: () {},
