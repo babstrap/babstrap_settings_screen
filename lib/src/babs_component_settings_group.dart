@@ -8,6 +8,7 @@ class SettingsGroup extends StatelessWidget {
   final String? settingsGroupTitle;
   final TextStyle? settingsGroupTitleStyle;
   final List<SettingsItem> items;
+  final EdgeInsets? margin;
   // Icons size
   final double? iconItemSize;
 
@@ -15,6 +16,7 @@ class SettingsGroup extends StatelessWidget {
       {this.settingsGroupTitle,
       this.settingsGroupTitleStyle,
       required this.items,
+      this.margin,
       this.iconItemSize = 25});
 
   @override
@@ -23,7 +25,7 @@ class SettingsGroup extends StatelessWidget {
       SettingsScreenUtils.settingsGroupIconSize = iconItemSize;
 
     return Container(
-      margin: EdgeInsets.only(bottom: 20),
+      margin: margin ?? EdgeInsets.only(bottom: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
