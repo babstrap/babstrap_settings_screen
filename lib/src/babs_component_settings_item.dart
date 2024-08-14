@@ -11,7 +11,6 @@ class SettingsItem extends StatelessWidget {
   final TextStyle? subtitleStyle;
   final Widget? trailing;
   final VoidCallback? onTap;
-  final Color? backgroundColor;
   final int? titleMaxLine;
   final int? subtitleMaxLine;
   final TextOverflow? overflow;
@@ -23,7 +22,6 @@ class SettingsItem extends StatelessWidget {
       this.titleStyle,
       this.subtitle,
       this.subtitleStyle,
-      this.backgroundColor,
       this.trailing,
       this.onTap,
       this.titleMaxLine,
