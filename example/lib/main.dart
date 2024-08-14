@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                 userProfilePic: AssetImage("assets/profilpic.png"),
               ),
               SettingsGroup(
-                backgroundColor: Colors.white,
+                backgroundColor: Colors.blue,
                 items: [
                   SettingsItem(
                     onTap: () {},
