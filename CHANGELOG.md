@@ -1,3 +1,7 @@
+## 0.1.8
+
+- namespace not specified issue fixed
+
 ## 0.1.7
 
 - Support custom color on SettingGroup (backgroundColor)
