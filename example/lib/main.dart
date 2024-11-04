@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
               // user card
               SimpleUserCard(
                 userName: "Nom de l'utilisateur",
-                userProfilePic: AssetImage("assets/profilpic.png"),
+                userProfilePic: AssetImage("assets/profile_pic.jpg"),
               ),
               SettingsGroup(
                 backgroundColor: Colors.blue,
